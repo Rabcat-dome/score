@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7DE96483-54A6-4E68-AC9D-C9F4EC7444CB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>adminService</RootNamespace>
+    <AssemblyName>adminService</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>score.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>score.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scoreList.aspx" />
+    <Content Include="images\Info-icon.png" />
+    <Content Include="images\score.jpg" />
+    <Content Include="images\home.gif" />
+    <Content Include="images\home.jpg" />
+    <Content Include="images\home.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\1-1232973916ijAM.jpg" />
+    <Content Include="images\24-10-07-11-36-36-s.jpg" />
+    <Content Include="images\703.gif" />
+    <Content Include="images\aa4.jpg" />
+    <Content Include="images\access_01.gif" />
+    <Content Include="images\announce.gif" />
+    <Content Include="images\arrow.gif" />
+    <Content Include="images\arrow_next.gif" />
+    <Content Include="images\banner_01.jpg" />
+    <Content Include="images\bgb.gif" />
+    <Content Include="images\bgFont.jpg" />
+    <Content Include="images\bgFont1.jpg" />
+    <Content Include="images\bg_line.gif" />
+    <Content Include="images\bk1.gif" />
+    <Content Include="images\board.gif" />
+    <Content Include="images\Book07.ico" />
+    <Content Include="images\clouds.jpg" />
+    <Content Include="images\Copy of title.png" />
+    <Content Include="images\Crystal_Clear_action_exit.png" />
+    <Content Include="images\depositphotos_12173273-Stationary-for-school.jpg" />
+    <Content Include="images\email.gif" />
+    <Content Include="images\emailtest.gif" />
+    <Content Include="images\emotion\bawling.gif" />
+    <Content Include="images\emotion\confused.gif" />
+    <Content Include="images\emotion\cool.gif" />
+    <Content Include="images\emotion\devil.gif" />
+    <Content Include="images\emotion\disagree.gif" />
+    <Content Include="images\emotion\drop.gif" />
+    <Content Include="images\emotion\eek.gif" />
+    <Content Include="images\emotion\embarass.gif" />
+    <Content Include="images\emotion\flow.gif" />
+    <Content Include="images\emotion\frown.gif" />
+    <Content Include="images\emotion\grazy.gif" />
+    <Content Include="images\emotion\kling.gif" />
+    <Content Include="images\emotion\lol.gif" />
+    <Content Include="images\emotion\no.gif" />
+    <Content Include="images\emotion\reallymad.gif" />
+    <Content Include="images\emotion\redeye.gif" />
+    <Content Include="images\emotion\sarcblink.gif" />
+    <Content Include="images\emotion\sleepy.gif" />
+    <Content Include="images\emotion\smile.gif" />
+    <Content Include="images\emotion\soppy.gif" />
+    <Content Include="images\emotion\stress.gif" />
+    <Content Include="images\emotion\sunglasses.gif" />
+    <Content Include="images\emotion\supergrin.gif" />
+    <Content Include="images\emotion\tasty.gif" />
+    <Content Include="images\emotion\tongue1.gif" />
+    <Content Include="images\emotion\wall.gif" />
+    <Content Include="images\emotion\wavey.gif" />
+    <Content Include="images\garlic.jpg" />
+    <Content Include="images\index_02.gif" />
+    <Content Include="images\index_14.gif" />
+    <Content Include="images\index_15.gif" />
+    <Content Include="images\index_16.gif" />
+    <Content Include="images\index_17.gif" />
+    <Content Include="images\index_18.gif" />
+    <Content Include="images\index_20.gif" />
+    <Content Include="images\index_21.gif" />
+    <Content Include="images\index_24.gif" />
+    <Content Include="images\index_25.gif" />
+    <Content Include="images\index_28.gif" />
+    <Content Include="images\index_32.gif" />
+    <Content Include="images\index_33.gif" />
+    <Content Include="images\index_37.gif" />
+    <Content Include="images\index_48.gif" />
+    <Content Include="images\index_51.gif" />
+    <Content Include="images\jud.gif" />
+    <Content Include="images\King.gif" />
+    <Content Include="images\Mailbox.ico" />
+    <Content Include="images\n.gif" />
+    <Content Include="images\new.gif" />
+    <Content Include="images\nopic.jpg" />
+    <Content Include="images\pic.gif" />
+    <Content Include="images\SimpleText.ico" />
+    <Content Include="images\smile.gif" />
+    <Content Include="images\stationary--pen-and-notebook--folder--notebook_3207312.jpg" />
+    <Content Include="images\title.png" />
+    <Content Include="images\unsafe_bg.jpg" />
+    <Content Include="images\warning.gif" />
+    <Content Include="images\welcome.gif" />
+    <Content Include="Default.aspx" />
+    <Content Include="log\log.htm" />
+    <Content Include="score.aspx" />
+    <Content Include="scoreReq.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="class\ClassTotal2008.vb" />
+    <Compile Include="class\dbaseClass2.vb" />
+    <Compile Include="class\crypClass.vb" />
+    <Compile Include="class\dbaseClass.vb" />
+    <Compile Include="class\EncryptFuncClass.vb" />
+    <Compile Include="scoreList.aspx.designer.vb">
+      <DependentUpon>scoreList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="scoreList.aspx.vb">
+      <DependentUpon>scoreList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="score.aspx.designer.vb">
+      <DependentUpon>score.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="score.aspx.vb">
+      <DependentUpon>score.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="scoreReq.aspx.designer.vb">
+      <DependentUpon>scoreReq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="scoreReq.aspx.vb">
+      <DependentUpon>scoreReq.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51319</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

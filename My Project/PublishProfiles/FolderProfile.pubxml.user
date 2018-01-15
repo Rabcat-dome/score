@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\192.9.200.18\WRW\score2</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/adminService.dll">
+      <publishTime>01/15/2018 15:26:40</publishTime>
+    </File>
+    <File Include="bin/adminService.pdb">
+      <publishTime>01/15/2018 15:26:40</publishTime>
+    </File>
+    <File Include="bin/score.xml">
+      <publishTime>01/15/2018 15:26:40</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/22/2015 09:10:06</publishTime>
+    </File>
+    <File Include="images/1-1232973916ijAM.jpg">
+      <publishTime>08/26/2013 15:41:32</publishTime>
+    </File>
+    <File Include="images/24-10-07-11-36-36-s.jpg">
+      <publishTime>04/22/2009 13:24:38</publishTime>
+    </File>
+    <File Include="images/703.gif">
+      <publishTime>04/30/2009 08:34:46</publishTime>
+    </File>
+    <File Include="images/aa4.jpg">
+      <publishTime>09/11/2013 10:59:06</publishTime>
+    </File>
+    <File Include="images/access_01.gif">
+      <publishTime>03/17/2006 04:59:54</publishTime>
+    </File>
+    <File Include="images/announce.gif">
+      <publishTime>04/01/2006 06:20:06</publishTime>
+    </File>
+    <File Include="images/arrow.gif">
+      <publishTime>08/14/2005 10:16:44</publishTime>
+    </File>
+    <File Include="images/arrow_next.gif">
+      <publishTime>11/30/2010 14:13:12</publishTime>
+    </File>
+    <File Include="images/banner_01.jpg">
+      <publishTime>03/10/2006 12:43:10</publishTime>
+    </File>
+    <File Include="images/bgb.gif">
+      <publishTime>03/07/2006 09:29:08</publishTime>
+    </File>
+    <File Include="images/bgFont.jpg">
+      <publishTime>08/26/2013 15:38:48</publishTime>
+    </File>
+    <File Include="images/bgFont1.jpg">
+      <publishTime>08/26/2013 15:41:24</publishTime>
+    </File>
+    <File Include="images/bg_line.gif">
+      <publishTime>08/13/2005 15:09:52</publishTime>
+    </File>
+    <File Include="images/bk1.gif">
+      <publishTime>01/03/2007 10:44:10</publishTime>
+    </File>
+    <File Include="images/board.gif">
+      <publishTime>07/13/2005 07:05:22</publishTime>
+    </File>
+    <File Include="images/Book07.ico">
+      <publishTime>12/14/2005 11:19:02</publishTime>
+    </File>
+    <File Include="images/clouds.jpg">
+      <publishTime>03/30/2006 10:12:04</publishTime>
+    </File>
+    <File Include="images/Copy of title.png">
+      <publishTime>11/25/2010 09:05:10</publishTime>
+    </File>
+    <File Include="images/Crystal_Clear_action_exit.png">
+      <publishTime>05/26/2009 16:29:28</publishTime>
+    </File>
+    <File Include="images/depositphotos_12173273-Stationary-for-school.jpg">
+      <publishTime>08/26/2013 15:42:00</publishTime>
+    </File>
+    <File Include="images/email.gif">
+      <publishTime>04/01/2006 06:27:24</publishTime>
+    </File>
+    <File Include="images/emailtest.gif">
+      <publishTime>04/01/2006 06:28:28</publishTime>
+    </File>
+    <File Include="images/emotion/bawling.gif">
+      <publishTime>05/30/2008 14:14:02</publishTime>
+    </File>
+    <File Include="images/emotion/confused.gif">
+      <publishTime>06/24/2008 10:36:42</publishTime>
+    </File>
+    <File Include="images/emotion/cool.gif">
+      <publishTime>05/28/2008 15:59:44</publishTime>
+    </File>
+    <File Include="images/emotion/devil.gif">
+      <publishTime>04/24/2008 09:20:56</publishTime>
+    </File>
+    <File Include="images/emotion/disagree.gif">
+      <publishTime>07/16/2008 14:55:10</publishTime>
+    </File>
+    <File Include="images/emotion/drop.gif">
+      <publishTime>07/16/2008 14:55:08</publishTime>
+    </File>
+    <File Include="images/emotion/eek.gif">
+      <publishTime>05/29/2008 16:36:54</publishTime>
+    </File>
+    <File Include="images/emotion/embarass.gif">
+      <publishTime>05/23/2008 09:40:04</publishTime>
+    </File>
+    <File Include="images/emotion/flow.gif">
+      <publishTime>05/28/2008 14:39:40</publishTime>
+    </File>
+    <File Include="images/emotion/frown.gif">
+      <publishTime>07/16/2008 14:55:08</publishTime>
+    </File>
+    <File Include="images/emotion/grazy.gif">
+      <publishTime>05/29/2008 15:07:52</publishTime>
+    </File>
+    <File Include="images/emotion/kling.gif">
+      <publishTime>05/28/2008 14:38:36</publishTime>
+    </File>
+    <File Include="images/emotion/lol.gif">
+      <publishTime>05/21/2008 17:01:50</publishTime>
+    </File>
+    <File Include="images/emotion/no.gif">
+      <publishTime>06/19/2008 16:10:56</publishTime>
+    </File>
+    <File Include="images/emotion/reallymad.gif">
+      <publishTime>06/25/2008 08:53:38</publishTime>
+    </File>
+    <File Include="images/emotion/redeye.gif">
+      <publishTime>07/16/2008 14:55:08</publishTime>
+    </File>
+    <File Include="images/emotion/sarcblink.gif">
+      <publishTime>06/09/2008 17:09:08</publishTime>
+    </File>
+    <File Include="images/emotion/sleepy.gif">
+      <publishTime>06/17/2008 08:26:30</publishTime>
+    </File>
+    <File Include="images/emotion/smile.gif">
+      <publishTime>04/24/2008 09:30:38</publishTime>
+    </File>
+    <File Include="images/emotion/soppy.gif">
+      <publishTime>05/28/2008 14:38:42</publishTime>
+    </File>
+    <File Include="images/emotion/stress.gif">
+      <publishTime>07/16/2008 14:55:08</publishTime>
+    </File>
+    <File Include="images/emotion/sunglasses.gif">
+      <publishTime>05/29/2008 15:07:44</publishTime>
+    </File>
+    <File Include="images/emotion/supergrin.gif">
+      <publishTime>05/02/2008 15:00:26</publishTime>
+    </File>
+    <File Include="images/emotion/tasty.gif">
+      <publishTime>05/21/2008 17:26:00</publishTime>
+    </File>
+    <File Include="images/emotion/tongue1.gif">
+      <publishTime>05/28/2008 14:38:58</publishTime>
+    </File>
+    <File Include="images/emotion/wall.gif">
+      <publishTime>06/19/2008 14:15:56</publishTime>
+    </File>
+    <File Include="images/emotion/wavey.gif">
+      <publishTime>05/28/2008 14:38:46</publishTime>
+    </File>
+    <File Include="images/garlic.jpg">
+      <publishTime>03/30/2006 10:17:20</publishTime>
+    </File>
+    <File Include="images/home.gif">
+      <publishTime>10/07/2013 09:57:22</publishTime>
+    </File>
+    <File Include="images/home.jpg">
+      <publishTime>10/07/2013 09:56:06</publishTime>
+    </File>
+    <File Include="images/home.png">
+      <publishTime>10/07/2013 09:57:58</publishTime>
+    </File>
+    <File Include="images/index_02.gif">
+      <publishTime>03/07/2006 09:29:08</publishTime>
+    </File>
+    <File Include="images/index_14.gif">
+      <publishTime>03/07/2006 09:29:08</publishTime>
+    </File>
+    <File Include="images/index_15.gif">
+      <publishTime>03/07/2006 09:29:08</publishTime>
+    </File>
+    <File Include="images/index_16.gif">
+      <publishTime>03/31/2006 09:57:40</publishTime>
+    </File>
+    <File Include="images/index_17.gif">
+      <publishTime>03/07/2006 09:29:08</publishTime>
+    </File>
+    <File Include="images/index_18.gif">
+      <publishTime>03/07/2006 09:29:08</publishTime>
+    </File>
+    <File Include="images/index_20.gif">
+      <publishTime>03/07/2006 09:29:08</publishTime>
+    </File>
+    <File Include="images/index_21.gif">
+      <publishTime>03/07/2006 09:29:08</publishTime>
+    </File>
+    <File Include="images/index_24.gif">
+      <publishTime>03/07/2006 09:29:08</publishTime>
+    </File>
+    <File Include="images/index_25.gif">
+      <publishTime>03/07/2006 09:29:08</publishTime>
+    </File>
+    <File Include="images/index_28.gif">
+      <publishTime>03/07/2006 09:29:10</publishTime>
+    </File>
+    <File Include="images/index_32.gif">
+      <publishTime>03/07/2006 09:29:10</publishTime>
+    </File>
+    <File Include="images/index_33.gif">
+      <publishTime>03/07/2006 09:29:10</publishTime>
+    </File>
+    <File Include="images/index_37.gif">
+      <publishTime>03/07/2006 09:29:10</publishTime>
+    </File>
+    <File Include="images/index_48.gif">
+      <publishTime>03/07/2006 09:29:10</publishTime>
+    </File>
+    <File Include="images/index_51.gif">
+      <publishTime>03/07/2006 09:29:10</publishTime>
+    </File>
+    <File Include="images/Info-icon.png">
+      <publishTime>06/10/2015 09:52:16</publishTime>
+    </File>
+    <File Include="images/jud.gif">
+      <publishTime>04/01/2006 04:16:10</publishTime>
+    </File>
+    <File Include="images/King.gif">
+      <publishTime>01/03/2007 10:44:24</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>10/07/2013 09:39:22</publishTime>
+    </File>
+    <File Include="images/Mailbox.ico">
+      <publishTime>12/14/2005 10:45:12</publishTime>
+    </File>
+    <File Include="images/n.gif">
+      <publishTime>04/01/2006 04:13:06</publishTime>
+    </File>
+    <File Include="images/new.gif">
+      <publishTime>03/16/2006 10:45:58</publishTime>
+    </File>
+    <File Include="images/nopic.jpg">
+      <publishTime>06/29/2006 10:44:40</publishTime>
+    </File>
+    <File Include="images/pic.gif">
+      <publishTime>04/24/2008 09:20:48</publishTime>
+    </File>
+    <File Include="images/score.jpg">
+      <publishTime>11/28/2013 10:08:02</publishTime>
+    </File>
+    <File Include="images/SimpleText.ico">
+      <publishTime>12/14/2005 10:51:50</publishTime>
+    </File>
+    <File Include="images/smile.gif">
+      <publishTime>05/21/2008 17:01:50</publishTime>
+    </File>
+    <File Include="images/stationary--pen-and-notebook--folder--notebook_3207312.jpg">
+      <publishTime>08/26/2013 15:40:26</publishTime>
+    </File>
+    <File Include="images/title.png">
+      <publishTime>11/29/2010 16:42:00</publishTime>
+    </File>
+    <File Include="images/unsafe_bg.jpg">
+      <publishTime>12/01/2010 15:59:58</publishTime>
+    </File>
+    <File Include="images/warning.gif">
+      <publishTime>07/16/2008 14:55:08</publishTime>
+    </File>
+    <File Include="images/welcome.gif">
+      <publishTime>03/08/2006 04:48:52</publishTime>
+    </File>
+    <File Include="log/log.htm">
+      <publishTime>01/15/2018 15:23:24</publishTime>
+    </File>
+    <File Include="score.aspx">
+      <publishTime>07/22/2015 14:33:08</publishTime>
+    </File>
+    <File Include="scoreList.aspx">
+      <publishTime>07/22/2015 09:10:08</publishTime>
+    </File>
+    <File Include="scoreReq.aspx">
+      <publishTime>07/22/2015 14:26:58</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/15/2018 15:26:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

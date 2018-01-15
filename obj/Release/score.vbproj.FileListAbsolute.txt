@@ -1,0 +1,11 @@
+F:\งานTHAPPLINE\OLDSys\WEPAPP_EditByMarch\score\bin\adminService.dll.config
+F:\งานTHAPPLINE\OLDSys\WEPAPP_EditByMarch\score\bin\adminService.dll
+F:\งานTHAPPLINE\OLDSys\WEPAPP_EditByMarch\score\bin\adminService.pdb
+F:\งานTHAPPLINE\OLDSys\WEPAPP_EditByMarch\score\bin\score.xml
+F:\งานTHAPPLINE\OLDSys\WEPAPP_EditByMarch\score\obj\Release\score.vbprojResolveAssemblyReference.cache
+F:\งานTHAPPLINE\OLDSys\WEPAPP_EditByMarch\score\obj\Release\adminService.Resources.resources
+F:\งานTHAPPLINE\OLDSys\WEPAPP_EditByMarch\score\obj\Release\score.vbproj.GenerateResource.Cache
+F:\งานTHAPPLINE\OLDSys\WEPAPP_EditByMarch\score\obj\Release\score.vbproj.CoreCompileInputs.cache
+F:\งานTHAPPLINE\OLDSys\WEPAPP_EditByMarch\score\obj\Release\adminService.dll
+F:\งานTHAPPLINE\OLDSys\WEPAPP_EditByMarch\score\obj\Release\score.xml
+F:\งานTHAPPLINE\OLDSys\WEPAPP_EditByMarch\score\obj\Release\adminService.pdb
